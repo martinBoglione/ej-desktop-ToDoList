@@ -1,4 +1,4 @@
-package org.example.objectModel
+package org.example.model
 
 data class Note(val id: String, var title: String, var description: String)
 data class DraftNote(var title: String, var description: String)
@@ -6,7 +6,6 @@ data class DraftNote(var title: String, var description: String)
 class IdGenerator {
     var noteId = 0
         private set
-
     fun nextNoteId(): String = "n_${++noteId}"
 }
 
@@ -23,11 +22,10 @@ class ToDoListSystem() {
         notes.add(Note(idGenerator.nextNoteId(), note.title, note.description))
     }
 
-    fun editNote(noteId: String, note: DraftNote) {
-        checkIfTitleIsNotRepeted(note.title)
+    fun editNote(noteId: String, draftNote: DraftNote) {
         val note = getNote(noteId)
-        note.title = note.title
-        note.description = note.description
+        note.title = draftNote.title
+        note.description = draftNote.description
     }
 
     fun removeNote(noteId: String) {
