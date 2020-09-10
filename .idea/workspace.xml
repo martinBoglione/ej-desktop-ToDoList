@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01f9731d-4ae7-4534-9201-dde41ac68420" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hJvUIGTfjXwfAKuX9aOOwkVhxy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="org.example.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="todoListArena" />
+      <option name="VM_PARAMETERS" value="-Djava.system.class.loader=org.uqbar.apo.APOClassLoader" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.org.example.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01f9731d-4ae7-4534-9201-dde41ac68420" name="Default Changelist" comment="" />
+      <created>1599742023511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599742023511</updated>
+      <workItem from="1599742027994" duration="8222000" />
+      <workItem from="1599768216347" duration="839000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="214" width="802" height="672" key="#Project_Structure" timestamp="1599742807111">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="555" y="214" width="802" height="672" key="#Project_Structure/0.25.1920.1055/1920.0.1366.768@0.25.1920.1055" timestamp="1599742807111" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599743912746">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1055/1920.0.1366.768@0.25.1920.1055" timestamp="1599743912746" />
+    <state x="751" y="272" width="409" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1599742415951">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="751" y="272" width="409" height="557" key="#com.intellij.ide.util.MemberChooser/0.25.1920.1055/1920.0.1366.768@0.25.1920.1055" timestamp="1599742415951" />
+    <state width="1874" height="281" key="GridCell.Tab.0.bottom" timestamp="1599768727694">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="281" key="GridCell.Tab.0.bottom/0.25.1920.1055/1920.0.1366.768@0.25.1920.1055" timestamp="1599768727694" />
+    <state width="1874" height="281" key="GridCell.Tab.0.center" timestamp="1599768727694">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="281" key="GridCell.Tab.0.center/0.25.1920.1055/1920.0.1366.768@0.25.1920.1055" timestamp="1599768727694" />
+    <state width="1874" height="281" key="GridCell.Tab.0.left" timestamp="1599768727694">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="281" key="GridCell.Tab.0.left/0.25.1920.1055/1920.0.1366.768@0.25.1920.1055" timestamp="1599768727694" />
+    <state width="1874" height="281" key="GridCell.Tab.0.right" timestamp="1599768727694">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="281" key="GridCell.Tab.0.right/0.25.1920.1055/1920.0.1366.768@0.25.1920.1055" timestamp="1599768727694" />
+    <state x="694" y="171" width="524" height="759" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599743327282">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="694" y="171" width="524" height="759" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1920.1055/1920.0.1366.768@0.25.1920.1055" timestamp="1599743327282" />
+  </component>
+</project>
