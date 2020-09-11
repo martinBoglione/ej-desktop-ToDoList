@@ -34,7 +34,7 @@ class EditNoteWindow(owner: WindowOwner, model: DraftNoteModel): Dialog<DraftNot
             caption = "Guardar"
             onClick {
                 if (modelObject.title.isEmpty()) {
-                    modelObject.errors = "Se necesita un titulo =S"
+                    showError("Se necesita un titulo =S")
                 } else {
                     accept()
                 }

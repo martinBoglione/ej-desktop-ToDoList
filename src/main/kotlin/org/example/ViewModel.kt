@@ -10,6 +10,8 @@ class ToDoListModel(val toDoListSystem: ToDoListSystem = getToDoListSystem()) {
 
     lateinit var notes: List<NoteModel>
 
+    var caption = ""
+
     init {
         updateNotes()
     }
@@ -49,7 +51,6 @@ class NoteModel(var id: String, var title: String, var description: String)
 class DraftNoteModel() {
     var title = ""
     var description = ""
-    var errors = ""
 
     constructor(noteModel: NoteModel) : this() {
         title = noteModel.title
