@@ -10,13 +10,9 @@ class ToDoListModel(val toDoListSystem: ToDoListSystem = getToDoListSystem()) {
 
     lateinit var notes: List<NoteModel>
 
-    var caption = ""
+    init { updateNotes() }
 
-    init {
-        updateNotes()
-    }
-
-    fun updateNotes() {
+    private fun updateNotes() {
         notes = toDoListSystem.notes.map { NoteModel(it.id, it.title, it.description) }
     }
 

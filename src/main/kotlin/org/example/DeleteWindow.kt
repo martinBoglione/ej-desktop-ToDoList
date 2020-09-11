@@ -15,16 +15,12 @@ class DeleteWindow(owner: WindowOwner, model: NoteModel): Dialog<NoteModel>(owne
 
         Button(mainPanel) with {
             caption = "Aceptar"
-            onClick {
-                accept()
-            }
+            onClick { accept() }
         }
 
         Button(mainPanel) with {
             caption = "Cancelar"
-            onClick {
-                cancel()
-            }
+            onClick { cancel() }
         }
     }
 

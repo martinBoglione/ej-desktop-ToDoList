@@ -3,13 +3,9 @@ package org.example
 import org.example.model.RepeatedException
 import org.uqbar.arena.kotlin.extensions.*
 import org.uqbar.arena.widgets.Button
-import org.uqbar.arena.widgets.Label
 import org.uqbar.arena.widgets.Panel
-import org.uqbar.arena.widgets.TextBox
-import org.uqbar.arena.windows.Dialog
 import org.uqbar.arena.windows.SimpleWindow
 import org.uqbar.arena.windows.WindowOwner
-import org.uqbar.commons.model.annotations.Observable
 import org.uqbar.commons.model.exceptions.UserException
 
 class ToDoListWindow(owner: WindowOwner, model: ToDoListModel): SimpleWindow<ToDoListModel>(owner, model) {
@@ -35,7 +31,7 @@ class ToDoListWindow(owner: WindowOwner, model: ToDoListModel): SimpleWindow<ToD
             bindEnabledTo("check")
             onClick {
                 val note = DraftNoteModel(modelObject.selected!!)
-                val view = EditNoteWindow(this@ToDoListWindow, note)
+                val view = EditNoteWindow(thisWindow, note)
                 view.onAccept {
                     modelObject.editNote(modelObject.selected!!.id, note)
                 }
@@ -47,7 +43,7 @@ class ToDoListWindow(owner: WindowOwner, model: ToDoListModel): SimpleWindow<ToD
             caption = "Borrar Nota"
             bindEnabledTo("check")
             onClick {
-                val deleteWindow = DeleteWindow(this@ToDoListWindow, modelObject.selected!!)
+                val deleteWindow = DeleteWindow(thisWindow, modelObject.selected!!)
                 deleteWindow.onAccept {
                     modelObject.removeNote(modelObject.selected!!.id)
                 }

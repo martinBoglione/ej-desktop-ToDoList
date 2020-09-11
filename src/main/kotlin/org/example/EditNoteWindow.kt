@@ -14,17 +14,13 @@ class EditNoteWindow(owner: WindowOwner, model: DraftNoteModel): Dialog<DraftNot
     override fun createFormPanel(mainPanel: Panel) {
         title = "Editar Nota"
 
-        Label(mainPanel) with {
-            text = "Titulo"
-        }
+        Label(mainPanel) withText "Titulo"
 
         TextBox(mainPanel) with {
             bindTo("title")
         }
 
-        Label(mainPanel) with {
-            text = "Descripcion"
-        }
+        Label(mainPanel) withText "Descripcion"
 
         TextBox(mainPanel) with {
             bindTo("description")
@@ -44,9 +40,7 @@ class EditNoteWindow(owner: WindowOwner, model: DraftNoteModel): Dialog<DraftNot
 
         Button(mainPanel) with {
             caption = "Cancelar"
-            onClick {
-                cancel()
-            }
+            onClick { cancel() }
         }
     }
 
